@@ -1,0 +1,17 @@
+{
+  "name": "n8n-auth-proxy",
+  "version": "1.0.0",
+  "description": "Google OAuth2 login page for n8n server",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "NODE_ENV=production node src/server.js"
+  },
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^134.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
